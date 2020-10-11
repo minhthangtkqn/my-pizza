@@ -1,5 +1,6 @@
 import { Button } from 'antd';
 import React from 'react';
+import style from './index.module.scss';
 
 type Props = {
     headerTitle?: string,
@@ -8,7 +9,7 @@ type Props = {
 const DataSection: React.FC<Props> = ({ headerTitle }) => {
     return (
         <div>
-            <div>
+            <div className={style['red']}>
                 {headerTitle}
             </div>
 
@@ -18,6 +19,14 @@ const DataSection: React.FC<Props> = ({ headerTitle }) => {
 
             <div>
                 <Button type="dashed" danger>Click me</Button>
+            </div>
+
+            <div className="text-blue-500 font-bold">
+                ABCasdasdasdsa
+            </div>
+
+            <div style={{width: 300}} className="border my-text-center">
+                hjgsd asg jdhas
             </div>
         </div>
     );
