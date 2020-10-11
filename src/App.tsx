@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import './utils/styles/index.scss';
 import DataSection from './utils/component/data-section';
 
