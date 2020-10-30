@@ -134,7 +134,11 @@ module.exports = {
       },
     },
     spacing: {
-      px: '1px',
+      xs: '4px',
+      sm: '8px',
+      md: '12px',
+      lg: '16px',
+      xl: '24px',
       '0': '0',
       '1': '0.25rem',
       '2': '0.5rem',
